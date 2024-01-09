@@ -5,7 +5,11 @@ export const ProductList = () => {
   //console.log(searchParams.get("keyword"));
 
   const location = useLocation();
-  console.log(location);
+  //console.log(location);
 
-  return <div className="component">ProductList</div>;
+  return (
+    <main>
+      <div className="component">Product List</div>
+    </main>
+  );
 };
